@@ -32,7 +32,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
-// JitPack Maven
-apply plugin: 'com.github.dcendents.android-maven'
-// Your Group
-group='com.github.yhaolpz'
+apply from: 'jcenter-push.gradle'
